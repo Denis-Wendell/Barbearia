@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgb(31, 30, 30), rgb(104, 104, 131));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.left-login>h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #909693;
+    font-size: 4.5vw;
+    align-items: center;
+    justify-content: center;
+    text-shadow: #514869 0.2rem 0.2rem;
+}
+
+.right-login>a>button{
+    background: rgb(212, 218, 215);
+    border: none;
+    font-size: 18pt;
+    float: right;
+    color: black;
+    font-weight: 800;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.right-login>a>button:hover{
+    background: rgb(97, 92, 92);
+    color: rgb(223, 224, 224)
+    
+}

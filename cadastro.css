@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(rgb(31, 30, 30), rgb(104, 104, 131));
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header>h1{
+    justify-content: center;
+    align-items: center;
+    margin-left: 20rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #909693;
+    font-size: 4.5vw;
+    align-items: center;
+    justify-content: center;
+    text-shadow: #514869 0.2rem 0.2rem;
+
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+fieldset {
+    margin-left: 4rem;
+    margin-right:4rem ;
+    width: 40%; /* Ajuste a largura conforme necessário */
+    display: inline-block;
+    vertical-align: top; /* Alinha os fieldsets no topo */
+    box-sizing: border-box;
+    border: none;
+ }
+
+label {
+    display: block;
+    color:rgb(211, 204, 204);
+    font-size: 22pt;
+    margin-bottom: -10px;
+}
+
+input {
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+a>.final {
+    margin-top: 3rem;
+    margin-left: 40rem;
+    font-size: 20pt;
+    background: rgb(48, 49, 56);
+    color: rgb(255, 254, 252);
+    font-weight: bold;
+}
+a>.final:hover{
+    background-color: greenyellow;
+    color: rgb(61, 51, 51);
+    transition: 0.4s;
+}
